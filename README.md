@@ -1,4 +1,5 @@
 # Flyrank Capstone Project
+
 # Flyrank Frontend Development Assignment
 
 [![React](https://img.shields.io/badge/React-18.x-blue.svg)](https://react.dev/)
@@ -51,3 +52,4 @@ A brief overview of the directory layout and key modules:
 ├── .env.example            # Template for environment variables
 ├── package.json
 └── README.md
+```

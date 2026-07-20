@@ -1,0 +1,25 @@
+{
+  "name": "flyrank-fe-capstone",
+  "version": "1.0.0",
+  "description": "[![React](https://img.shields.io/badge/React-18.x-blue.svg)](https://react.dev/)\r [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38bdf8.svg)](https://tailwindcss.com/)\r [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sh3vzz/flyrank-fe-capstone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sh3vzz/flyrank-fe-capstone/issues"
+  },
+  "homepage": "https://github.com/sh3vzz/flyrank-fe-capstone#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
