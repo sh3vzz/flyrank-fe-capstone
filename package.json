@@ -1,25 +1,38 @@
 {
   "name": "flyrank-fe-capstone",
+  "type": "module",
   "version": "1.0.0",
-  "description": "[![React](https://img.shields.io/badge/React-18.x-blue.svg)](https://react.dev/)\r [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38bdf8.svg)](https://tailwindcss.com/)\r [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+  "description": "...",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sh3vzz/flyrank-fe-capstone.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/sh3vzz/flyrank-fe-capstone/issues"
-  },
-  "homepage": "https://github.com/sh3vzz/flyrank-fe-capstone#readme",
   "devDependencies": {
-    "husky": "^8.0.0"
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.0.5",
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.25",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.2.0"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^4.0.33",
+    "@ai-sdk/google": "^4.0.36",
+    "@hookform/resolvers": "^5.7.1",
+    "ai": "^7.0.55",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-hook-form": "^7.84.0",
+    "react-router-dom": "^7.18.2",
+    "zod": "^3.25.76"
   }
 }
